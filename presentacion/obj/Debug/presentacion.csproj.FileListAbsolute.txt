@@ -1,0 +1,16 @@
+C:\Users\Hp\Desktop\Curso C# N2\TPFinalNivel2_Cortes\presentacion\bin\Debug\presentacion.exe.config
+C:\Users\Hp\Desktop\Curso C# N2\TPFinalNivel2_Cortes\presentacion\bin\Debug\presentacion.exe
+C:\Users\Hp\Desktop\Curso C# N2\TPFinalNivel2_Cortes\presentacion\bin\Debug\presentacion.pdb
+C:\Users\Hp\Desktop\Curso C# N2\TPFinalNivel2_Cortes\presentacion\bin\Debug\Modelo.dll
+C:\Users\Hp\Desktop\Curso C# N2\TPFinalNivel2_Cortes\presentacion\bin\Debug\Negocio.dll
+C:\Users\Hp\Desktop\Curso C# N2\TPFinalNivel2_Cortes\presentacion\bin\Debug\Modelo.pdb
+C:\Users\Hp\Desktop\Curso C# N2\TPFinalNivel2_Cortes\presentacion\bin\Debug\Negocio.pdb
+C:\Users\Hp\Desktop\Curso C# N2\TPFinalNivel2_Cortes\presentacion\obj\Debug\presentacion.csproj.AssemblyReference.cache
+C:\Users\Hp\Desktop\Curso C# N2\TPFinalNivel2_Cortes\presentacion\obj\Debug\presentacion.Form1.resources
+C:\Users\Hp\Desktop\Curso C# N2\TPFinalNivel2_Cortes\presentacion\obj\Debug\presentacion.Properties.Resources.resources
+C:\Users\Hp\Desktop\Curso C# N2\TPFinalNivel2_Cortes\presentacion\obj\Debug\presentacion.csproj.GenerateResource.cache
+C:\Users\Hp\Desktop\Curso C# N2\TPFinalNivel2_Cortes\presentacion\obj\Debug\presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\Curso C# N2\TPFinalNivel2_Cortes\presentacion\obj\Debug\presenta.D2D8CCE5.Up2Date
+C:\Users\Hp\Desktop\Curso C# N2\TPFinalNivel2_Cortes\presentacion\obj\Debug\presentacion.exe
+C:\Users\Hp\Desktop\Curso C# N2\TPFinalNivel2_Cortes\presentacion\obj\Debug\presentacion.pdb
+C:\Users\Hp\Desktop\Curso C# N2\TPFinalNivel2_Cortes\presentacion\obj\Debug\presentacion.frmAgregar.resources

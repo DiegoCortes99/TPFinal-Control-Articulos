@@ -55,17 +55,17 @@
             this.dgvArticulos.MultiSelect = false;
             this.dgvArticulos.Name = "dgvArticulos";
             this.dgvArticulos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvArticulos.Size = new System.Drawing.Size(743, 312);
+            this.dgvArticulos.Size = new System.Drawing.Size(642, 312);
             this.dgvArticulos.TabIndex = 0;
             this.dgvArticulos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvArticulos_CellContentClick);
             this.dgvArticulos.SelectionChanged += new System.EventHandler(this.dgvArticulos_SelectionChanged);
             // 
             // pbImagen
             // 
-            this.pbImagen.Location = new System.Drawing.Point(799, 60);
+            this.pbImagen.Location = new System.Drawing.Point(687, 60);
             this.pbImagen.Name = "pbImagen";
-            this.pbImagen.Size = new System.Drawing.Size(250, 312);
-            this.pbImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbImagen.Size = new System.Drawing.Size(302, 312);
+            this.pbImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbImagen.TabIndex = 1;
             this.pbImagen.TabStop = false;
             // 
@@ -167,7 +167,7 @@
             this.txtBuscar.Location = new System.Drawing.Point(537, 452);
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(192, 20);
-            this.txtBuscar.TabIndex = 15;            
+            this.txtBuscar.TabIndex = 15;
             // 
             // btnFiltrar
             // 

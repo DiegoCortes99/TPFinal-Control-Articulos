@@ -45,6 +45,7 @@
             this.pbImagen = new System.Windows.Forms.PictureBox();
             this.btnAcceptar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnImgLocal = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbImagen)).BeginInit();
             this.SuspendLayout();
             // 
@@ -167,10 +168,10 @@
             // 
             // pbImagen
             // 
-            this.pbImagen.Location = new System.Drawing.Point(282, 23);
+            this.pbImagen.Location = new System.Drawing.Point(314, 23);
             this.pbImagen.Name = "pbImagen";
             this.pbImagen.Size = new System.Drawing.Size(282, 281);
-            this.pbImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbImagen.TabIndex = 14;
             this.pbImagen.TabStop = false;
             // 
@@ -194,11 +195,22 @@
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
+            // btnImgLocal
+            // 
+            this.btnImgLocal.Location = new System.Drawing.Point(255, 241);
+            this.btnImgLocal.Name = "btnImgLocal";
+            this.btnImgLocal.Size = new System.Drawing.Size(16, 23);
+            this.btnImgLocal.TabIndex = 17;
+            this.btnImgLocal.Text = "+";
+            this.btnImgLocal.UseVisualStyleBackColor = true;
+            this.btnImgLocal.Click += new System.EventHandler(this.btnImgLocal_Click);
+            // 
             // frmAgregar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(598, 389);
+            this.ClientSize = new System.Drawing.Size(622, 389);
+            this.Controls.Add(this.btnImgLocal);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAcceptar);
             this.Controls.Add(this.pbImagen);
@@ -244,5 +256,6 @@
         private System.Windows.Forms.PictureBox pbImagen;
         private System.Windows.Forms.Button btnAcceptar;
         private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Button btnImgLocal;
     }
 }

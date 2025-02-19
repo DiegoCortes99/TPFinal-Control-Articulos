@@ -156,6 +156,21 @@ namespace Negocio
                             break;
                     }
                 }
+                if (campo == "Precio")
+                {
+                    switch (criterio)
+                    {
+                        case "Mayor que":
+                            consulta += "A.Precio > " + buscar;
+                            break;
+                        case "Menor que":
+                            consulta += "A.Precio < " + buscar;
+                            break;
+                        case "Igual":
+                            consulta += "A.Precio = " + buscar;
+                            break;
+                    }
+                }
 
                 datos.crearConsulta(consulta);
                 datos.ejecutarConsulta();

@@ -59,6 +59,7 @@ namespace presentacion
 
             cboCampo.Items.Add("Nombre");
             cboCampo.Items.Add("Categoria");
+            cboCampo.Items.Add("Precio");
         }
 
         private void CargarImagen(string imagen)
@@ -154,12 +155,12 @@ namespace presentacion
         {
             string opcion = cboCampo.SelectedItem.ToString();
 
-            if (opcion == "Nombre")
+            if (opcion == "Precio")
             {
                 cboCriterio.Items.Clear();
-                cboCriterio.Items.Add("Comienza con");
-                cboCriterio.Items.Add("Termina con");
-                cboCriterio.Items.Add("Contiene");
+                cboCriterio.Items.Add("Mayor que");
+                cboCriterio.Items.Add("Menor que");
+                cboCriterio.Items.Add("Igual");
             }
             else
             {
@@ -171,7 +172,57 @@ namespace presentacion
 
         }
 
+        private bool validarFiltro()
+        {
+            if (cboCampo.SelectedIndex < 0)
+            {
+                MessageBox.Show("Seleccione un campo para filtrar");
+                return true;
+            }
+            if (cboCriterio.SelectedIndex < 0)
+            {
+                MessageBox.Show("Seleccione un criterio para filtrar");
+                return true;
+            }
+            if (cboCampo.SelectedItem.ToString() == "Precio")
+            {
+                if (string.IsNullOrEmpty(txtBuscar.Text))
+                {
+                    MessageBox.Show("Debes cargar el filtro para numericos...");
+                    return true;
+                }
+                if (!(soloNumeros(txtBuscar.Text)))
+                {
+                    MessageBox.Show("Solo se permiten numeros y un punto decimal (ej: 90.000)");
+                    return true;
+                }
+
+            }
+            return false;
+        }
         
+        private bool soloNumeros(string cadena)
+        {
+
+            bool puntoEncontrado = false;
+
+            foreach (char caracter in cadena)
+            {
+                if (caracter == '.')
+                {
+                    if (puntoEncontrado)
+                    {
+                        return false;
+                    }
+                    puntoEncontrado = true;
+                }
+                else if (!(char.IsNumber(caracter)))
+                {
+                    return false;
+                }                                       
+            }
+            return true;
+        }
 
         private void btnFiltrar_Click(object sender, EventArgs e)
         {
@@ -179,6 +230,12 @@ namespace presentacion
 
             try
             {
+                // cancela ejecucion del evento
+                if (validarFiltro())
+                {
+                    return;
+                }
+
                 string campo = cboCampo.SelectedItem.ToString();
                 string criterio = cboCriterio.SelectedItem.ToString();
                 string buscar = txtBuscar.Text;

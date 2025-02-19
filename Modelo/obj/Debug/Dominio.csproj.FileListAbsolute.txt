@@ -1,0 +1,6 @@
+C:\Users\Hp\Desktop\Curso C# N2\TPFinalNivel2_Cortes\Modelo\bin\Debug\Modelo.dll
+C:\Users\Hp\Desktop\Curso C# N2\TPFinalNivel2_Cortes\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Hp\Desktop\Curso C# N2\TPFinalNivel2_Cortes\Modelo\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\Hp\Desktop\Curso C# N2\TPFinalNivel2_Cortes\Modelo\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\Curso C# N2\TPFinalNivel2_Cortes\Modelo\obj\Debug\Modelo.dll
+C:\Users\Hp\Desktop\Curso C# N2\TPFinalNivel2_Cortes\Modelo\obj\Debug\Modelo.pdb

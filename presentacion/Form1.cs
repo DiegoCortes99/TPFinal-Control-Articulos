@@ -102,6 +102,18 @@ namespace presentacion
             
         }
 
+        private void btnDetalles_Click(object sender, EventArgs e)
+        {
+            Articulos seleccionado;
+            seleccionado = (Articulos)dgvArticulos.CurrentRow.DataBoundItem;
+
+            frmDetalle detalle = new frmDetalle(seleccionado);
+            detalle.ShowDialog();
+            cargar();
+        }
+
+
+
         private void btnEliminar_Click(object sender, EventArgs e)
         {
             ArticuloNegocio negocio = new ArticuloNegocio();

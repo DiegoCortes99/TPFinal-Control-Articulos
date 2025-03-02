@@ -42,6 +42,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.btnFiltrar = new System.Windows.Forms.Button();
+            this.btnDetalles = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvArticulos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbImagen)).BeginInit();
             this.SuspendLayout();
@@ -179,11 +180,22 @@
             this.btnFiltrar.UseVisualStyleBackColor = true;
             this.btnFiltrar.Click += new System.EventHandler(this.btnFiltrar_Click);
             // 
+            // btnDetalles
+            // 
+            this.btnDetalles.Location = new System.Drawing.Point(371, 390);
+            this.btnDetalles.Name = "btnDetalles";
+            this.btnDetalles.Size = new System.Drawing.Size(86, 23);
+            this.btnDetalles.TabIndex = 17;
+            this.btnDetalles.Text = "Ver Detalle";
+            this.btnDetalles.UseVisualStyleBackColor = true;
+            this.btnDetalles.Click += new System.EventHandler(this.btnDetalles_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1171, 492);
+            this.Controls.Add(this.btnDetalles);
             this.Controls.Add(this.btnFiltrar);
             this.Controls.Add(this.txtBuscar);
             this.Controls.Add(this.label4);
@@ -224,6 +236,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtBuscar;
         private System.Windows.Forms.Button btnFiltrar;
+        private System.Windows.Forms.Button btnDetalles;
     }
 }
 
